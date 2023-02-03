@@ -11,7 +11,7 @@ export type ImageConfigComplete = {
    *
    * Docs: https://solito.dev/usage/image#solitoimageprovider-
    */
-  nextJsURL?: `http:${string}` | `https:${string}`
+  nextJsURL?: string
   /**
    * You probably shouldn't touch this. It's only used on native to get your images.
    *
